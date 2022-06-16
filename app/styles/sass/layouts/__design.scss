@@ -1,0 +1,55 @@
+.design {
+    position: relative;
+    background-image: url('../images/dist/design/design-bg.png');
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+@media (max-width: 560px) {
+    .design {
+        padding-top: 0;
+        padding-bottom: 68px;
+        background-image: url('../images/dist/design/design-bg-mob.jpg');
+    }
+}
+
+.design::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.5);
+    z-index: 0;
+}
+
+.section-head .section-head_light {
+    position: relative;
+    color: #fff;
+}
+
+.section-head_light .section-head__title::after {
+    background: #fff;
+}
+
+.design__button {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    width: 370px;
+}
+
+@media (max-width: 1200px) {
+    .design__button {
+        width: 318px;
+    }
+}
+
+@media (max-width: 768px) {
+    .design__button {
+        width: 280px;
+        font-size: 16px;
+    }
+}

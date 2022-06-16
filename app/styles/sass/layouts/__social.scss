@@ -1,0 +1,148 @@
+.social {
+    background: var(--social-bg-color);
+}
+
+@media (max-width: 560px) {
+    .social {
+        padding-top: 31px;
+        padding-bottom: 44px;
+    }
+}
+
+.social__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+    .social__title {
+        margin: 0 auto;
+    }
+}
+
+.social__subtitle {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+
+@media (max-width: 1200px) {
+    .social__subtitle {
+        font-size: 18px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social__subtitle {
+        text-align: center;
+    }
+}
+
+@media (max-width: 560px) {
+    .social__subtitle {
+        text-align: center;
+    }
+}
+
+.social__text {
+    max-width: 470px;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-color);
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+@media (max-width: 1200px) {
+    .social__text {
+        font-size: 14px;
+        padding-top: 13px;
+        padding-bottom: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social__text {
+        text-align: center;
+    }
+}
+
+@media (max-width: 560px) {
+    .social__text {
+        text-align: center;
+    }
+}
+
+.social__links {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+@media (max-width: 768px) {
+    .social__links {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 560px) {
+    .social__links {
+        margin: 0 auto;
+    }
+}
+
+.social__links-item {
+    list-style: none;
+    margin-left: 30px;
+}
+
+@media (max-width: 1200px) {
+    .social__links-item {
+        margin-left: 20px;
+    }
+}
+
+.social__links-item:nth-child(1) {
+    margin-left: 0;
+}
+
+.social__links-img {
+    width: 70px;
+    height: 70px;
+}
+
+@media (max-width: 1200px) {
+    .social__links-img {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .social__links-img {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 768px) {
+    .social__links-img {
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    .social__links-img {
+        width: 26px;
+        height: 26px;
+    }
+}

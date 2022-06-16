@@ -1,0 +1,22 @@
+.button-outline {
+    font-family: "Open-sans", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    background-clip: content-box;
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 270px;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .button-outline {
+        width: 184px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}

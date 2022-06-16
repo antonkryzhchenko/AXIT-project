@@ -1,0 +1,45 @@
+:root {
+    --accentcolor: #EC7979;
+    --button-hover-color: #AB4949;
+    --text-color: #86878B;
+    --pricing-bg-color: #F5F5F5;
+    --reviews-card-bg-color: #E2E2E2;
+    --social-bg-color: #F8EFEF;
+    --content-width: 1170px;
+    --mobile-padding: 16px;
+    --gutter: 15px;
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --gutter: 10px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 100%;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    color: #fff;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}

@@ -1,0 +1,97 @@
+.benefits {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media (max-width: 560px) {
+    .benefits {
+        padding-top: 0;
+        padding-bottom: 60px;
+    }
+}
+
+.benefits__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .benefits__card:last-child {
+        margin-top: 15px;
+    }
+}
+
+.benefits__img {
+    width: 170px;
+    height: 170px;
+}
+
+@media (max-width: 1200px) {
+    .benefits__img {
+        width: 147px;
+        height: 147px;
+    }
+}
+
+@media (max-width: 768px) {
+    .benefits__img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 560px) {
+    .benefits__img {
+        width: 147px;
+        height: 147px;
+        margin-top: 10px;
+    }
+}
+
+.benefits__card-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    font-style: normal;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 1200px) {
+    .benefits__card-title {
+        font-size: 18px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .benefits__card-title {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 560px) {
+    .benefits__card-title {
+        font-size: 18px;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+}
+
+.benefits__card-descr {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+@media (max-width: 1200px) {
+    .benefits__card-descr {
+        font-size: 14px;
+        margin-top: 9px;
+    }
+}

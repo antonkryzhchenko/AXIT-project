@@ -1,0 +1,121 @@
+.pricing {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: var(--pricing-bg-color);
+}
+
+@media (max-width: 560px) {
+    .pricing {
+        padding-top: 0;
+        padding-bottom: 26px;
+    }
+}
+
+.pricing__card {
+    transition: 0.3s;
+}
+
+@media (max-width: 560px) {
+    .pricing__card {
+        margin-top: 27px;
+    }
+    .pricing__card:first-child {
+        margin-top: 0;
+    }
+}
+
+.pricing__card_active:hover {
+    content: '';
+    transform: translateY(-5%);
+}
+
+.pricing__card-title {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #ffffff;
+    background: #333333;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+@media (max-width: 768px) {
+    .pricing__card-title {
+        font-size: 18px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
+
+.pricing__card-cost {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #ffffff;
+    background: #333333;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-top: 2px solid #F5F5F5;
+    border-bottom: 2px solid #F5F5F5;
+}
+
+@media (max-width: 768px) {
+    .pricing__card-cost {
+        font-size: 24px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+    }
+}
+
+@media (max-width: 560px) {
+    .pricing__card-cost {
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+}
+
+.pricing__card-desc {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    background: #333333;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+@media (max-width: 768px) {
+    .pricing__card-desc {
+        font-size: 16px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+.pricing__card-space {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    color: var(--text-color);
+    background: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-bottom: 4px solid #f5f5f5;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .pricing__card-space {
+        font-size: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+}
